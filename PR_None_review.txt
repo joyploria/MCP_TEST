@@ -1,14 +1,14 @@
 - Summary:
-  - The provided diff is not available due to an input validation error indicating a None value where an integer was expected.
-  - No code changes can be reviewed as the diff content is missing or malformed.
+  - The provided diff is not available due to an input validation error indicating a type mismatch (None instead of integer).
+  - No code changes can be reviewed as the diff content is missing.
 
 - Risks:
-  - Unable to assess risks without the actual code changes.
-  - Potential risk that the input validation error itself could indicate issues in the PR submission or tooling.
+  - Unable to assess risks without the code changes.
+  - Potential risk that the PR introduces type errors or validation issues if the error reflects the PR content.
 
 - Suggestions:
-  - Resubmit the PR with a valid diff that passes input validation.
-  - Ensure that all required fields and data types are correctly specified before submission.
-  - Verify the PR content locally or with the submission tool to avoid similar errors.
+  - Please provide a valid diff or patch file with proper type annotations.
+  - Ensure all inputs and variables conform to expected types before submission.
+  - Validate PR content to avoid tooling errors.
 
-Risk score: 7 (due to inability to review and potential underlying tooling or submission issues)
+Risk score: 7 (due to inability to review and potential type validation issues)
