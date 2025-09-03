@@ -1,0 +1,3 @@
+[SIMULATED REVIEW]
+- Review unavailable without OPENAI_API_KEY.
+- Ensure tests and security checks.
