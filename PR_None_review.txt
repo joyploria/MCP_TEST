@@ -1,14 +1,14 @@
 - Summary:
-  - The provided diff is not available due to an input validation error indicating a type mismatch (None instead of integer).
-  - No code changes can be reviewed as the diff content is missing.
+  - The provided diff is missing or could not be fetched due to an input validation error.
+  - No code changes are visible for review.
 
 - Risks:
-  - Unable to assess risks without code context.
-  - Potential risk that the input validation error itself could indicate a flaw in validation logic or data handling.
+  - Unable to assess security or performance risks without the code.
+  - Potential risk that the validation error itself may indicate an underlying issue in the PR submission or CI pipeline.
 
 - Suggestions:
-  - Ensure the diff is correctly generated and submitted for review.
-  - Verify input validation logic to handle None values appropriately.
-  - Provide a valid diff for a thorough review.
+  - Fix the input validation error to ensure the diff can be retrieved and reviewed.
+  - Verify that the PR includes all necessary files and that the diff is properly formatted.
+  - Once the diff is available, perform a detailed review focusing on code quality, security, and performance.
 
-Risk score: 7 (due to inability to review and potential validation issues)
+Risk score: 7 (due to inability to review and potential hidden issues)
