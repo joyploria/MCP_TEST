@@ -1,4 +1,5 @@
 version: 1
-feature: enabled
+debug: true
+allow_admin_bypass: true
 
-# touch: 2025-09-07T15:53:23.972405Z
+# touch: 2025-09-07T15:53:24.716642Z
