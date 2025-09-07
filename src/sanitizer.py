@@ -1,5 +1,4 @@
 def sanitize(s):
-    s = s.replace('"', '`')
-    return s.replace("'", '`')
+    return s.replace('\\', '')
 
-# touch: 2025-09-06T19:42:35.017259Z
+# touch: 2025-09-07T14:56:27.721280Z
