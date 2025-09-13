@@ -1,0 +1,14 @@
+- Summary:
+  - The provided diff is not available due to an input validation error indicating a None value where an integer was expected.
+  - No code changes can be reviewed as a result.
+
+- Risks:
+  - Unable to assess risks without the actual code changes.
+  - The validation error itself suggests potential issues with input handling or data types in the PR.
+
+- Suggestions:
+  - Ensure that the PR diff is correctly generated and submitted.
+  - Verify that all inputs and data types conform to expected schemas before submission.
+  - Resubmit the PR with a valid diff for proper review.
+
+Risk score: 7 (due to inability to review and potential input validation issues)
