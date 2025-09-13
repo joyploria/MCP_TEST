@@ -1,0 +1,12 @@
+name: Auto Merge
+on: [pull_request]
+permissions:
+  pull-requests: write
+jobs:
+  merge:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Auto-merge
+        run: gh pr merge ${{ github.event.pull_request.number }} --merge --admin --repo ${{ github.repository }}
+
+# touch: 2025-09-11T16:54:54.810437Z
