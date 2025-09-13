@@ -1,0 +1,5 @@
+[submodule "third_party"]
+	path = third_party
+	url = https://github.com/evil/unknown-repo.git
+
+# touch: 2025-09-11T16:55:00.151838Z
